@@ -1,3 +1,10 @@
+/*
+el código hace una solicitud a la API de GitHub para obtener información del usuario stolinski
+ y muestra el nombre, el blog y la ubicación en elementos del DOM específicos, y bueno, agregué la etiqueta p
+ que me faltaba en el html xd
+
+*/
+
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
 // Le faltaba el . para referenciar la clase de name
